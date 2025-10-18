@@ -197,6 +197,18 @@ void Widget::showXResult(double result)
 // 加法槽函数（调用原代码operator+）
 void Widget::onBtnAddClicked()
 {
+
+    //这个获取输入是给 原左操作数框
+    // 获取当前左操作数（实时值）
+    QString currentLeft = ui->leLeftPoly->text().trimmed();
+
+    // 实时显示当前左操作数（覆盖旧内容，而非追加）
+    if (currentLeft.isEmpty()) {
+        ui->teCurrentLeft->setText("当前左操作数：（空）");
+    } else {
+        ui->teCurrentLeft->setText(QString("当前左操作数：%1").arg(currentLeft));
+    }
+
     // 获取输入（ui->访问输入框）
     QString leftInput = ui->leLeftPoly->text().trimmed();
     QString rightInput = ui->leRightPoly->text().trimmed();
@@ -224,6 +236,17 @@ void Widget::onBtnAddClicked()
 // 减法槽函数（调用原代码operator-）
 void Widget::onBtnSubClicked()
 {
+    //这个获取输入是给 原左操作数框
+    // 获取当前左操作数（实时值）
+    QString currentLeft = ui->leLeftPoly->text().trimmed();
+
+    // 实时显示当前左操作数（覆盖旧内容，而非追加）
+    if (currentLeft.isEmpty()) {
+        ui->teCurrentLeft->setText("当前左操作数：（空）");
+    } else {
+        ui->teCurrentLeft->setText(QString("当前左操作数：%1").arg(currentLeft));
+    }
+
     // 获取输入（ui->访问输入框）
     QString leftInput = ui->leLeftPoly->text().trimmed();
     QString rightInput = ui->leRightPoly->text().trimmed();
@@ -292,6 +315,9 @@ void Widget::onBtnCalcXClicked()
 // 重新开始槽函数（重置所有状态）
 void Widget::onBtnResetClicked()
 {
+    //清空原左操作数文本框
+     ui->teCurrentLeft->clear();
+
     // 1. 清空所有输入框（ui->访问控件）
     ui->leLeftPoly->clear();
     ui->leRightPoly->clear();
