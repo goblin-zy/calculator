@@ -1,0 +1,9 @@
+D:/Google_download/QtProject/calmechine/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/calmechine.dir
+D:/Google_download/QtProject/calmechine/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/Google_download/QtProject/calmechine/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/Google_download/QtProject/calmechine/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/Google_download/QtProject/calmechine/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/Google_download/QtProject/calmechine/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/Google_download/QtProject/calmechine/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/Google_download/QtProject/calmechine/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/calmechine_autogen_timestamp_deps.dir
+D:/Google_download/QtProject/calmechine/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CMakeFiles/calmechine_autogen.dir

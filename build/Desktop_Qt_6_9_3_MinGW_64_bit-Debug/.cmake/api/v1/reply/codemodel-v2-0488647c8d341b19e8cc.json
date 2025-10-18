@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-3a923a17573119c081cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "calmechine",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "calmechine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calmechine-Debug-4c3851c29bcc28a30f6a.json",
+					"name" : "calmechine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "calmechine_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calmechine_autogen-Debug-f06bba3d47c92028eb21.json",
+					"name" : "calmechine_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "calmechine_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calmechine_autogen_timestamp_deps-Debug-6c0348a61a85a80cd1f0.json",
+					"name" : "calmechine_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Google_download/QtProject/calmechine/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug",
+		"source" : "D:/Google_download/QtProject/calmechine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
